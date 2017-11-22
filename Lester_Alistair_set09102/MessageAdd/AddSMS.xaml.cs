@@ -10,27 +10,26 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
+/// <summary>
+/// Summary description for Class1
+/// </summary>
 namespace Lester_Alistair_set09102
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-    public partial class MainWindow : Window
+    public partial class AddSMS : Window
     {
-        public MainWindow()
+        public AddSMS()
         {
-            InitializeComponent();
-        }
+            IntializeComponent();
 
-        private void Add_SMS_Click(object sender, RoutedEventArgs e)
-        {
-            MessageAdd.AddSMS form = new MessageAdd.AddSMS();
-            form.showDialog();
         }
     }
+
+
+
 }
+
+

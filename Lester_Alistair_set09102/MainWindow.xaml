@@ -9,7 +9,7 @@
     <Grid>
         <Label x:Name="Add" Content="Add" HorizontalAlignment="Left" Margin="78,30,0,0" VerticalAlignment="Top"/>
         <Label x:Name="Load" Content="Load" HorizontalAlignment="Left" Margin="74,172,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="Add_SMS" Content="SMS" HorizontalAlignment="Left" Margin="35,75,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="Add_SMS" Content="SMS" HorizontalAlignment="Left" Margin="35,75,0,0" VerticalAlignment="Top" Width="75" Click="Add_SMS_Click"/>
         <Button x:Name="Add_Email" Content="Email" HorizontalAlignment="Left" Margin="125,75,0,0" VerticalAlignment="Top" Width="75"/>
         <Button x:Name="Add_Tweet" Content="Tweet" HorizontalAlignment="Left" Margin="78,113,0,0" VerticalAlignment="Top" Width="75"/>
         <Button x:Name="Load_SMS" Content="SMS" HorizontalAlignment="Left" Margin="35,211,0,0" VerticalAlignment="Top" Width="75"/>
