@@ -5,8 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lester_Alistair_set09102"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="387.255" Width="644.608">
     <Grid>
-        
+        <Label x:Name="Add" Content="Add" HorizontalAlignment="Left" Margin="78,30,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Load" Content="Load" HorizontalAlignment="Left" Margin="74,172,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Add_SMS" Content="SMS" HorizontalAlignment="Left" Margin="35,75,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="Add_Email" Content="Email" HorizontalAlignment="Left" Margin="125,75,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="Add_Tweet" Content="Tweet" HorizontalAlignment="Left" Margin="78,113,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="Load_SMS" Content="SMS" HorizontalAlignment="Left" Margin="35,211,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="Load_email" Content="Email" HorizontalAlignment="Left" Margin="125,211,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="Load_Tweet" Content="Tweet" HorizontalAlignment="Left" Margin="78,247,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox HorizontalAlignment="Left" Height="314" Margin="248,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202"/>
+        <Button x:Name="Show_Trending" Content="Trending" HorizontalAlignment="Left" Margin="506,75,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label x:Name="Show" Content="Show" HorizontalAlignment="Left" Margin="523,30,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Show_Mention" Content="Mention" HorizontalAlignment="Left" Margin="506,118,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="Show_SIR" Content="SIR" HorizontalAlignment="Left" Margin="506,157,0,0" VerticalAlignment="Top" Width="75"/>
+
     </Grid>
 </Window>
